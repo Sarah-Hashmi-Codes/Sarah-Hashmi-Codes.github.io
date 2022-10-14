@@ -1,13 +1,11 @@
-
-
 html {
 	font-family: 'Roboto',  sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
-    font-family:"roboto", sans-serif;
+    font-family:"Roboto", sans-serif;
     background-color: white;
-    margin-bottom: 0px;
 }
 
 header {
@@ -61,7 +59,7 @@ li{
 }
 
 .menu li:hover {
-    background-color:#AF584D;
+    background-color:white;
     border-radius: 5px;
     transition: 0.3s ease;
    }
@@ -72,6 +70,7 @@ li{
 #social-menu{
     display: flex;
     gap: 1em;
+    
 }
     
 
@@ -82,92 +81,78 @@ li{
     vertical-align: middle;
     align-items: stretch;
     justify-content: space-between;
-    background: white right/cover url("Set_of_programmers_02_01.jpg") no-repeat;
+    background: #AF584D;
     background-position: 100px;
-	
 }
-
 
 #hero-text{
     padding-top: 5%;
     padding-bottom: 25%;
     font-size: larger;
+    color: white;
 }
-
-
 
 .title{
     font-family:"Roboto";
     font-size: 48px;
     margin:0px;
-    color:#AF584D
+    color:white;
+    text-align: center;
+    
 
 }
 
 .subtitle{
-    font-size:36px;
-    float:left;
+    font-size:30px;
+    text-align: center;
+    font-family: "Lato";
+    color:white;
+    line-height: 1.6;
+
 }
 
-
-.columns-title{
-    text-align: center;
-    font-family: "Roboto";
+#about{
     background-color: #AF584D;
     padding: 2%;
     display: block;
-    color: white;  
-    font-size: 25px; 
-}
-.column {
-	width: 29%;
-	height: 250px;
-	padding: 2%;
-	display: inline-block;
-	vertical-align: middle;
-
+    color: white;
+    justify-content: center;
 }
 
+  
 
-#portfolio{
-    display:flex;
-    justify-content: space-evenly;
-    margin-left: 17%;
+#footer{
+    color:black;
 }
-
 
 
 img{
     width:150px;
-    height:150px;
  
  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
      object-fit:scale-down;
  
  }
 
- #cta{
-    background-color: #F2F1F6;
- }
-
 
  .form-title{
     text-align: center;
-    font-family: "Roboto";
-    color: #AF584D;
-    font-size: 25px;
+    font-family: "Lato";
+    color:#AF584D
  }
+
+
 
  /* Form */
 
  form {
     max-width:420px;
-    margin:0px auto; 
+    margin:50px auto; 
     }
 
 .feedback-input {
     color:black;
-    font-family: "lato";
+    font-family: "Lato";
     font-weight:500;
     font-size: 18px;
     border-radius: 5px;
@@ -191,7 +176,7 @@ textarea {
 }
       
 [type="submit"] {
-        font-family: "lato";
+        font-family: "Lato";
         width: 100%;
         background: #AF584D;
         border-radius:5px;
@@ -205,14 +190,7 @@ textarea {
         margin-top:-4px;
         font-weight:700;
       }
-      [type="submit"]:hover { background:#CC4949; }
-
-
-
-
-  h2{
-    font-family: 'Lato', sans-serif;
-  }
+      [type="submit"]:hover { background:red; }
 
 
 
