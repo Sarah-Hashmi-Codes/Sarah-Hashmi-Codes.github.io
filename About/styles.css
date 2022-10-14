@@ -218,3 +218,11 @@ textarea {
   margin-top:15px;
   float:right;
 }
+
+@media (min-width: 600px) {
+    .footer-content-right{
+        padding-right: 0px;
+
+    }
+    
+}
