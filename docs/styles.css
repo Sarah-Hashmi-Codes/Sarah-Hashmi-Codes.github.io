@@ -62,6 +62,7 @@ li{
     text-decoration: none;
     color:black;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 
@@ -122,6 +123,10 @@ li{
     float:left;
 }
 
+h3{
+    font-size: 22px;
+}
+
 
 .columns-title{
     text-align: center;
@@ -153,7 +158,7 @@ li{
 }
 
 .column img{
-    width:150px;
+    /* width:150px; */
     height:150px;
  
  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
@@ -164,6 +169,7 @@ li{
 
  #cta{
     background-color: #F2F1F6;
+    padding-bottom: 25px;
     
  }
 
@@ -171,8 +177,9 @@ li{
  .form-title{
     text-align: center;
     font-family: "Roboto";
-    color: #AF584D;
+    color: black;
     font-size: 25px;
+    padding: 15px;
  }
 
  /* Form */
@@ -184,7 +191,7 @@ li{
 
 .feedback-input {
     color:black;
-    font-family: "lato";
+    font-family: "Roboto";
     font-weight:500;
     font-size: 18px;
     border-radius: 5px;
@@ -208,7 +215,7 @@ textarea {
 }
       
 [type="submit"] {
-        font-family: "lato";
+        font-family: "Roboto";
         width: 100%;
         background: #AF584D;
         border-radius:5px;
@@ -222,13 +229,13 @@ textarea {
         margin-top:-4px;
         font-weight:700;
       }
-      [type="submit"]:hover { background:#CC4949; }
+      [type="submit"]:hover { background:#3F6864; }
 
 
 
 
   h2{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
 

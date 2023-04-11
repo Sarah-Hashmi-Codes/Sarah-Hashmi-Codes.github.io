@@ -34,6 +34,9 @@ li{
     list-style: none;
 }
 
+.logo img{
+    width:150px;
+}
 
 .navbar {
  display: flex;
@@ -49,6 +52,7 @@ li{
     text-decoration: none;
     color:black;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .menu{
@@ -59,10 +63,11 @@ li{
 }
 
 .menu li:hover {
-    background-color:white;
+    background-color:#3F6864;
     border-radius: 5px;
     transition: 0.3s ease;
    }
+
 .menu li {
     padding: 5px 14px;
 }
@@ -75,7 +80,7 @@ li{
     
 
 #hero{
-	height: 75vh;
+	height: 30vh;
 	padding: 50px;
     padding-top: 0;
     vertical-align: middle;
@@ -98,6 +103,7 @@ li{
     margin:0px;
     color:white;
     text-align: center;
+    padding-top: 3%;
     
 
 }
@@ -105,7 +111,7 @@ li{
 .subtitle{
     font-size:30px;
     text-align: center;
-    font-family: "Lato";
+    font-family: "Roboto";
     color:white;
     line-height: 1.6;
 
@@ -127,23 +133,58 @@ li{
 
 
 img{
-    width:150px;
+    width:300px;
  
  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
      object-fit:scale-down;
+ }
+
+ .project-row{
+ width: 95%;
+ padding: 15px;
+ display: flex;
+ /* justify-content: space-around; */
+ }
+
+#projects{
+ width: 95%;
+ max-width: 1300px;
+ padding: 10px;
+ margin: 5px auto;
+ }
+
+.project-card{
+     display: flex;
+     gap:20px
+    
+}
+
+.project-text{
+    font-size: 20px;
+}
  
+
+
+
+
+ /* Form */
+
+ 
+ #cta{
+    background-color: #F2F1F6;
+    padding-bottom: 25px;
+    
  }
 
 
  .form-title{
     text-align: center;
-    font-family: "Lato";
-    color:#AF584D
+    font-family: "Roboto";
+    color:black;
+    font-size:25px;
+    padding: 15px;
  }
 
-
-
- /* Form */
 
  form {
     max-width:420px;
@@ -152,7 +193,7 @@ img{
 
 .feedback-input {
     color:black;
-    font-family: "Lato";
+    font-family: "Roboto";
     font-weight:500;
     font-size: 18px;
     border-radius: 5px;
@@ -176,7 +217,7 @@ textarea {
 }
       
 [type="submit"] {
-        font-family: "Lato";
+        font-family: "Roboto";
         width: 100%;
         background: #AF584D;
         border-radius:5px;
@@ -190,8 +231,9 @@ textarea {
         margin-top:-4px;
         font-weight:700;
       }
-      [type="submit"]:hover { background:red; }
+      [type="submit"]:hover { background:#3F6864; }
 
+   
 
 
 /* Footer */
@@ -219,10 +261,57 @@ textarea {
   float:right;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .footer-content-right{
         padding-right: 0px;
 
     }
     
+}
+
+
+#current a{
+    color:white;
+}
+
+
+.center {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    
+  }
+
+  @media(max-width: 320px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        gap:0em
+    }
+
+
+    .title{
+        font-size:25px;
+
+    }
+
+    .subtitle{
+        font-size: 18px;
+    }
+
+    .footer{
+        display:flex;
+    }
+
+    .[type="submit"] {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .subtitle{
+        font-size: 28px;}
 }
