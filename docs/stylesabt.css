@@ -34,6 +34,9 @@ li{
     list-style: none;
 }
 
+.logo img{
+    width:150px;
+}
 
 .navbar {
  display: flex;
@@ -49,6 +52,7 @@ li{
     text-decoration: none;
     color:black;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .menu{
@@ -59,7 +63,7 @@ li{
 }
 
 .menu li:hover {
-    background-color:white;
+    background-color:#3F6864;
     border-radius: 5px;
     transition: 0.3s ease;
    }
@@ -107,7 +111,7 @@ li{
 .subtitle{
     font-size:30px;
     text-align: center;
-    font-family: "Lato";
+    font-family: "Roboto";
     color:white;
     line-height: 1.6;
 
@@ -120,6 +124,13 @@ li{
     color: white;
     justify-content: center;
 }
+
+
+#cta{
+    background-color: #F2F1F6;
+    padding-bottom: 25px;
+    
+ }
 
   
 
@@ -136,16 +147,36 @@ img{
  
  }
 
+ .tech-stack-logos{
+    display: flex;
+    justify-content: center;
 
- .form-title{
-    text-align: center;
-    font-family: "Lato";
-    color:#AF584D
+ }
+
+ .tech-stack-title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+ }
+
+
+ .tech-logo{
+    height: 100px;
  }
 
 
 
+
  /* Form */
+
+ .form-title{
+    text-align: center;
+    font-family: "Roboto";
+    color: black;
+    padding: 15px;
+ }
+
 
  form {
     max-width:420px;
@@ -154,7 +185,7 @@ img{
 
 .feedback-input {
     color:black;
-    font-family: "Lato";
+    font-family: "Roboto";
     font-weight:500;
     font-size: 18px;
     border-radius: 5px;
@@ -178,7 +209,7 @@ textarea {
 }
       
 [type="submit"] {
-        font-family: "Lato";
+        font-family: "Roboto";
         width: 100%;
         background: #AF584D;
         border-radius:5px;
@@ -192,7 +223,7 @@ textarea {
         margin-top:-4px;
         font-weight:700;
       }
-      [type="submit"]:hover { background:red; }
+      [type="submit"]:hover { background:#3F6864; }
 
 
 
@@ -266,7 +297,7 @@ textarea {
         display:flex;
     }
 
-    .[type="submit"] {
+    [type="submit"] {
         font-size: 20px;
     }
 }
